@@ -1,0 +1,196 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Header {
+    color      : rgb(50, 50, 139);
+    font-weight: 800;
+}
+
+.Red {
+    color: rgb(219, 52, 52);
+}
+
+.light_Blue {
+    color: rgb(125, 125, 201);
+}
+
+.Rounded-Button {
+    background-color: rgb(72, 145, 212);
+    color           : white;
+    font-weight     : bolder;
+    border-radius   : 25px;
+    padding: 5px;
+}
+
+#white_button {
+    color: white;
+    
+}
+
+h2,h6,h5 {
+    display: inline;
+}
+.White
+{
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+}
+.icon_White{
+    color: white;
+}
+
+/* .Nav_items
+{
+    color: gray;
+    font-weight:bold;
+} */
+/* #Nav-link 
+{
+    color: gray; 
+    font-weight:bold; */
+.nav-linkk:active {
+    color: rgb(72, 145, 212);
+}
+
+.nav-linkk:hover {
+    color: rgb(72, 145, 212);
+}
+
+.nav-linkk {
+    display        : block;
+    color          : grey;
+    text-decoration: none;
+    font-weight    : bold;
+    transition     : color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+a {
+    padding-top: 0.8rem;
+}
+
+body {
+    padding-top : 1rem;
+    margin-left : 5%;
+    margin-right: 5%;
+}
+
+.offcanvas-backdrop {
+    background-color: indigo !important;
+}
+
+.offcanvas-start {
+    width: 70% !important;
+}
+
+.Margin {
+    margin-top: 10%;
+}
+.padding
+{
+    padding-top: 10%;
+}
+
+h1 {
+    display: inline;
+}
+
+td {
+    padding: 0px;
+    margin : 0%;
+}
+
+#Corona_header {
+    vertical-align: middle;
+    font-size     : 500%;
+    font-weight   : bolder;
+    padding       : 0px;
+    margin        : 0%;
+    color:  rgb(50, 50, 139);
+}
+#Corona_td {
+    vertical-align: middle;
+    
+}
+
+table {
+    border-spacing: 0px;
+    border        : indigo;
+}
+
+#Covid_header {
+    vertical-align: bottom;
+    margin        : 0px;
+    color: rgb(219, 52, 52);
+    
+}
+
+#virus_header {
+    vertical-align: top;
+    margin        : 0px;
+    color:  rgb(50, 50, 139);
+}
+
+h3 {
+    margin: 0px;
+}
+.flex_cont
+{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.flex-nest
+{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.flex_cont_Header
+{
+        display: flex;
+      flex-direction: row;
+}
+@media (max-width: 800px) {
+    .flex_cont {
+      flex-direction: column;
+    }.flex_cont_Header
+    {flex-direction: column;}
+  }
+  
+  nav,html,body{padding: 0px !important;}
+  div.row{
+    --bs-gutter-x: 0rem;
+  }
+
+  #AboutArrow
+  {
+      text-decoration: none;
+  }
+
+  .Numbers
+  {
+      color:rgb(50, 50, 139); 
+      font-weight: bold;
+  }
+  .NumbersLab
+  {
+      color: grey;
+      font-size: medium;
+      font-weight: bold;
+  }
+  #banner_cont
+   {
+      background-color:  #F7F9FE; 
+      background-image: url(http://frontend.projects-amit-learning.com/images/shape-a.png);
+      background-size: cover;
+  }
+  header{
+    /* background-color: #797f8f;  */
+  }
+  /* .whiteNav{
+background-color: white;
+  } */
+  .nav-colored { background-color:#000; }
+.nav-transparent { background-color:transparent;}
