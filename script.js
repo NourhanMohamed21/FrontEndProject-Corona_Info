@@ -1,11 +1,7 @@
 $(document).ready(function(){
     $(window).scroll(function(){
         console.log($(window).scrollTop());
-        if($(window).scrollTop() > $(window).height()){
-            $("#menu").css({"background-color":"transparent"});   
-        }
-       
-        else if($(window).scrollTop()==0)
+         if($(window).scrollTop()==0)
         $("#menu").css({"background-color":"transparent"});   
         else{
             $("#menu").css({"background-color":"white"});
@@ -13,7 +9,7 @@ $(document).ready(function(){
 
     })
 })
-console.log("cc")
+// console.log("cc")
 // // $(document).ready(function () {
 // //     $("#ToggleButton").click(function(){
 // //         $("#habal").html("<h1>hgjhklk</h1>")
