@@ -30,7 +30,7 @@
 
 h2,
 h6,
-h5 {
+h5,h3 {
     display: inline;
 }
 
@@ -90,12 +90,16 @@ body {
 .Margin {
     margin-top: 10%;
 }
-
+.padding_all
+{
+    padding: 5%;
+    padding-left: 5%!important;
+}
 .padding {
     padding-top: 10%;
 }
 
-h1 {
+h1,h2 {
     display: inline;
 }
 
@@ -168,6 +172,10 @@ h3 {
 @media (max-width: 992px) {
     .Text-center {
         text-align: center;
+    }
+    .paddingcards
+    {
+        padding-top: 10%;
     }
 }
 
@@ -295,4 +303,228 @@ background-color: white;
 .Spread
 {
     background-color: rgb(241, 241, 241);
+}
+.fever-img {
+    height: 100px;
+    width: 100px;
+    background: url('http://frontend.projects-amit-learning.com/images/symptom-a.png');
+    background-size: cover;
+    background-position: left;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+     margin: 0%;  
+}
+.Cough-img {
+    height: 100px;
+    width: 100px;
+    background: url('http://frontend.projects-amit-learning.com/images/symptom-b.png');
+    background-size: cover;
+    background-position: left;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+     margin: 0%;  
+}
+
+.Breath-img {
+    height: 100px;
+    width: 100px;
+    background: url('http://frontend.projects-amit-learning.com/images/symptom-c.png');
+    background-size: cover;
+    background-position: left;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+     margin: 0%;  
+}
+.Symptoms{
+    background-color: rgba(245, 245, 245,0.6)  ; 
+   
+}
+
+
+.card{
+    border: none !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+#wash
+{
+    height: 100px;
+    width: 100px;
+    background: url('http://frontend.projects-amit-learning.com/images/advice-a.png');
+    background-size: cover;
+    background-position: left;
+    position: sticky;
+    top: -25px;
+    left: -25px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+     margin: 0%;
+     margin-left: auto;
+     margin-right: auto;
+}
+#social
+{
+    height: 100px;
+    width: 100px;
+    background: url('http://frontend.projects-amit-learning.com/images/advice-b.png');
+    background-size: cover;
+    background-position: left;
+    position: sticky;
+    top: -25px;
+    left: -25px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+     margin: 0%;
+     margin-left: auto;
+     margin-right: auto;
+}
+#touch
+{
+    height: 100px;
+    width: 100px;
+    background: url('http://frontend.projects-amit-learning.com/images/advice-c.png');
+    background-size: cover;
+    background-position: left;
+    position: sticky;
+    top: -25px;
+    left: -25px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+     margin: 0%;
+     margin-left: auto;
+     margin-right: auto;
+}
+#hygiene
+{
+    height: 100px;
+    width: 100px;
+    background: url('http://frontend.projects-amit-learning.com/images/advice-d.png');
+    background-size: cover;
+    background-position: left;
+    position: sticky;
+    top: -25px;
+    left: -25px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+     margin: 0%;
+     margin-left: auto;
+     margin-right: auto;
+}
+.green
+{color:green;}
+.padding_3D
+{
+    padding-left: 1% !important;
+    padding-right: 1% !important;
+    padding-top: 1% !important;
+}
+#soap
+{
+    height: 100px;
+    width: 100px;
+    background: url('http://frontend.projects-amit-learning.com/images/hand-a.png');
+    background-size: cover;
+    background-position: left;
+    position: sticky;
+    top: -25px;
+    left: -25px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+     margin: 0%;
+     margin-left: auto;
+     margin-right: auto;
+}
+#Palm
+{
+    height: 100px;
+    width: 100px;
+    background: url('http://frontend.projects-amit-learning.com/images/hand-b.png');
+    background-size: cover;
+    background-position: left;
+    position: sticky;
+    top: -25px;
+    left: -25px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+     margin: 0%;
+     margin-left: auto;
+     margin-right: auto;
+}
+#fingers
+{
+    height: 100px;
+    width: 100px;
+    background: url('http://frontend.projects-amit-learning.com/images/hand-c.png');
+    background-size: cover;
+    background-position: left;
+    position: sticky;
+    top: -25px;
+    left: -25px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+     margin: 0%;
+     margin-left: auto;
+     margin-right: auto;
+}
+#backH
+{
+    height: 100px;
+    width: 100px;
+    background: url('http://frontend.projects-amit-learning.com/images/hand-d.png');
+    background-size: cover;
+    background-position: left;
+    position: sticky;
+    top: -25px;
+    left: -25px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+     margin: 0%;
+     margin-left: auto;
+     margin-right: auto;
+}
+#clean
+{
+    height: 100px;
+    width: 100px;
+    background: url('http://frontend.projects-amit-learning.com/images/hand-e.png');
+    background-size: cover;
+    background-position: left;
+    position: sticky;
+    top: -25px;
+    left: -25px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+     margin: 0%;
+     margin-left: auto;
+     margin-right: auto;
+}
+#focus
+{
+    height: 100px;
+    width: 100px;
+    background: url('http://frontend.projects-amit-learning.com/images/hand-f.png');
+    background-size: cover;
+    background-position: left;
+    position: sticky;
+    top: -25px;
+    left: -25px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+     margin: 0%;
+     margin-left: auto;
+     margin-right: auto;
+}
+.Prevention
+{
+    background-color: rgb(241, 241, 241); 
 }
