@@ -689,3 +689,85 @@ background-color: white;
 .iconStyle.fa-2x {
     font-size: 1.5em !important;
 }
+.Questions li
+{
+    display: flex;
+    margin: 1%;
+    border: 2px solid #e7e8ff;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    padding: 3%;
+    list-style: none;
+    vertical-align: middle !important;
+    
+    display: flex;
+    justify-content: space-between;
+    color: #50658e;
+    cursor: pointer;
+    font-size: large;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.Questions ul
+{
+    padding: 0% !important;
+}
+.Questions p{
+   
+        margin-top: 0; 
+         margin-bottom: 0;
+}
+.Questions i{
+   
+    padding-top: 0.5%; 
+     margin-bottom: 0;
+     font-size: x-large;
+     
+}
+#accordion  .FlexSpaceBt
+
+{
+    padding-left: 0%;
+    padding-right: 0%;
+
+}
+
+.card-header {
+    /* padding: .5rem 1rem; */
+    margin-bottom: 0;
+    background-color: #f3f3f3 !important;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.card-header-color
+{
+    background-color: #ffffff !important;   
+}
+
+/* .sign
+{
+    width: 50px;
+    height: 50px;
+
+}  */
+.showD
+{
+display: block;
+}
+.hideD
+{
+    display: none;
+}
+
+.active, #QuestionsUl li:hover{
+color: rgb(72, 145, 212) !important;
+border: 2px solid rgb(72, 145, 212) !important;
+border-radius: 2%;
+border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#QuestionsDiv
+{
+    padding-left: 2%;
+    padding-top: 0.5%;
+}
