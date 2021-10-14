@@ -1,10 +1,13 @@
 $(document).ready(function () {
     $(window).scroll(function () {
         console.log($(window).scrollTop());
-        if ($(window).scrollTop() == 0)
+        if ($(window).scrollTop() == 0){
             $("#menu").css({ "background-color": "transparent" });
+            $("#fixedbutton").css({"display":"none"});
+        }
         else {
             $("#menu").css({ "background-color": "white" });
+            $("#fixedbutton").css({"display":"block"});
         }
 
     });
@@ -71,6 +74,38 @@ $(list).removeClass("showD");
 $(list).addClass("hideD");
 $('#A2').addClass("showD");
 $('#A2').removeClass("hideD");
+});
+$("#Q3").click( function () {
+    console.log("gh");
+let list = $('.showD');
+$(list).removeClass("showD");
+$(list).addClass("hideD");
+$('#A3').addClass("showD");
+$('#A3').removeClass("hideD");
+});
+$("#Q4").click( function () {
+    console.log("gh");
+let list = $('.showD');
+$(list).removeClass("showD");
+$(list).addClass("hideD");
+$('#A4').addClass("showD");
+$('#A4').removeClass("hideD");
+});
+$("#Q5").click( function () {
+    console.log("gh");
+let list = $('.showD');
+$(list).removeClass("showD");
+$(list).addClass("hideD");
+$('#A5').addClass("showD");
+$('#A5').removeClass("hideD");
+});
+$("#Q6").click( function () {
+    console.log("gh");
+let list = $('.showD');
+$(list).removeClass("showD");
+$(list).addClass("hideD");
+$('#A6').addClass("showD");
+$('#A6').removeClass("hideD");
 });
 // list.forEach(lis => {
 //     lis.addEventListener('click', function () {
