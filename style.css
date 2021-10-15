@@ -80,10 +80,14 @@ body {
     margin-right: 5%;
 }
 
-.offcanvas-backdrop {
-    background-color: indigo !important;
+.offcanvas-backdrop.show {
+    opacity: 0.7;
 }
-
+.offcanvas-header {
+   
+    justify-content: space-evenly !important;
+    
+}
 .offcanvas-start {
     width: 70% !important;
 }
@@ -186,6 +190,28 @@ h3 {
         margin-left        : auto !important;
         margin-right       : auto !important;
     }
+    .Footer-Padding-Top
+    {
+        padding-top: 20%;
+    }
+    .footer li
+    {
+        padding-top: 4%;
+    }
+    .Hfont
+    {
+        font-size:xx-large ;
+
+    }.Aboutfont
+    {
+        font-size: x-large !important;
+    }.padding-Mobile
+    {
+        padding-top: 25% !important;
+    }.padding
+    {padding-top: 0%;
+
+    }
    
 }
 
@@ -239,7 +265,10 @@ background-color: white;
 .padding-bottom {
     padding-bottom: 10%;
 }
-
+#ToggleButton
+{
+    z-index: 1;
+}
 .Turquise {
     color            : rgb(72, 145, 212);
     font-weight      : bold;
@@ -297,8 +326,8 @@ background-color: white;
     display        : flex;
     flex-direction : row;
     justify-content: space-between;
-    padding-left   : 15%;
-    padding-right  : 15%;
+    padding-left   : 7%;
+    padding-right  : 7%;
 }
 
 .AboutCorona {
@@ -792,4 +821,71 @@ border-radius: 5px;
     right: 3%; 
     font-size: 2.5em !important;
 
+}
+
+.FooterDiv
+{
+    background-color: #151c2e;
+    background-image: url(http://frontend.projects-amit-learning.com/images/shape-a.png);
+    background-size : cover;
+    color: #b2bfe0;}
+    .FooterFirstRow{
+    padding-bottom: 7%;
+   
+    border-bottom: 1px solid rgba(247, 248, 255, 0.1);
+}
+
+.footerIcons i
+{
+    
+    margin: 2%;
+    margin-left: 0%;
+border-radius: 50%;
+padding: 3%;
+background-color: #50658e;
+color: white;
+
+}
+.footerIcons i:hover{
+    background-color: rgb(72, 145, 212) !important;
+    cursor: pointer;
+}
+.footer ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+
+}
+.footer  a
+{
+    color: #b2bfe0 !important; 
+    text-decoration: none;
+ 
+}
+
+.footer li{
+    padding-top: 4%;
+}
+
+.footer a:hover
+{
+    color: rgb(72, 145, 212) !important;
+}
+.copyRight
+{
+    font-size: smaller;
+}
+.Aboutfont
+{
+    font-size: xx-large;
+    padding-bottom: 1%;
+}
+.BigFont
+{
+    font-size: larger;
+}
+.tableAlign
+{
+    padding-left   : 7% !important;
+    padding: 3%;
 }

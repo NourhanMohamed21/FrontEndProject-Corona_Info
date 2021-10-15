@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coronaaa Virus</title>
+    
     <link rel="stylesheet" href="style.css">
 
     <!-- Latest compiled and minified CSS -->
@@ -17,69 +17,78 @@
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2913/2913604.png">
+        
+        <title>Coronavirus (Covid-19) Prevention & Informatics</title>
 
 </head>
 
 
 
 <body>
-    <header>
-        <div id="banner_cont">
-            <!-- startind the nav bar and togglr for mobile screen to sidebar -->
+    <header >
+        <div id="banner_cont" class="container-fluid ">
+            
+            <!-- starting the nav bar and toggle for mobile screen to sidebar -->
             <nav id="menu" class="navbar whiteNav fixed-top navbar-expand-xl">
-                <div class="container-fluid">
+                <div class="container-fluid ">
                     <a class="navbar-brand offset-1 col-2" href="#">
                         <h2 class=" Header ">C<span class="Red"><i class="fas fa-virus"></i></span>VID<span
                                 class="light_Blue">19</span></h2>
                     </a>
                     <button class="navbar-toggler" type="button" id="ToggleButton" data-bs-toggle="offcanvas"
-                        onclick="Togglee()" data-bs-target="#offcanvasNavbar">
+                         data-bs-target="#offcanvasNavbar" >
                         <i class="fas fa-bars fa-1x"></i>
                     </button>
 
-                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" 
                         aria-labelledby="offcanvasNavbarLabel">
-                        <div class="offcanvas-header">
-
-                            <button type="button" data-bs-dismiss="offcanvas"><i
-                                    class="far fa-times-circle"></i></button>
+                        
+                        <div class="offcanvas-header text-right">
+                            <h2 class=" Header ">C<span class="Red"><i class="fas fa-virus"></i></span>VID<span
+                                class="light_Blue">19</span></h2>
+                            <button type="button" class="btn-close text-right text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <!-- <button type="button" data-bs-dismiss="offcanvas"><i
+                                    class="far fa-times-circle"></i></button> -->
                         </div>
                         <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-around flex-grow-1 pe-3 offset-2">
                                 <li class=" nav-item ">
-                                    <a class="nav-linkk " href="#">Home</a>
+                                    <a class="nav-linkk NavHome Turquise" href="#">Home</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-linkk NavAbout" href="#AboutCorona">About Corona</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-linkk" href="#">About Corona</a>
+                                    <a class="nav-linkk NavSymp" href="#CoronaSymptoms">Symptoms</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-linkk" href="#">Symptoms</a>
+                                    <a class="nav-linkk NavPrev" href="#CoronaPrevention">Prevention</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-linkk" href="#">Prevention</a>
+                                    <a class="nav-linkk NavTreat" href="#CoronaTreatment">Treatment</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-linkk" href="#">Treatment</a>
+                                    <a class="nav-linkk NavFQ" href="#F&Q">F&Q</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-linkk" href="#F&Q">F&Q</a>
+                                    <a class="nav-linkk NavNews" href="#LatestUpdate">News</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-linkk" href="#">News</a>
-                                </li>
-                                <li class="nav-item">
-                                    <button class="Rounded-Button"><a class="nav-link" id="white_button" href="#">Do &
+                                    <button class="Rounded-Button"><a class="nav-link" id="white_button" href="#Do&Don't">Do &
                                             Don't</a></button>
                                 </li>
                                 <li class="col-1"></li>
                             </ul>
 
                         </div>
+                        
                     </div>
+                    <!-- <div class="offcanvas-backdrop  ">gnr</div> -->
                 </div>
             </nav>
-
-            <div class="container-fluid padding">
+            <!-- intro page Home -->
+            <div class="container-fluid padding-Mobile padding">
                 <div class="row">
                     <div class="row">
                         <div class="offset-lg-1  col-12 col-lg-5 offset-md-2  col-md-8  text-center">
@@ -108,13 +117,13 @@
                             </div>
                             <div class="row text-center padding">
                                 <div class="offset-lg-1 offset-md-2 col-12 col-md-auto"> <button
-                                        class="Rounded-Button "><a href="#"></a>
+                                        class="Rounded-Button "><a href="#Do&Don't" class="AboutArrow">
                                         <h6 class="White">How To Protect</h6>
-                                        <i class="fas fa-shield-alt icon_White"></i>
+                                        <i class="fas fa-shield-alt icon_White"></i></a>
                                     </button>
                                 </div>
                                 <div class="offset-lg-1 offset-md-2 col-12 col-md-auto">
-                                    <a class="AboutArrow" href="#">
+                                    <a class="AboutArrow" href="#AboutCorona">
                                         <h5>About COVID-19 </h5><i class="fas fa-arrow-right"></i>
                                     </a>
 
@@ -166,12 +175,13 @@
         </div>
     </header>
     <!-- ABOUT THE DISEASE -->
-    <div class="container-fluid padding-small AboutCorona ">
+    <div class="container-fluid padding-small AboutCorona " id="AboutCorona">
         <div class="row">
-            <div class="row offset-lg-1 col-lg-5 col-md-12 col-12 Text-center">
-                <h6 class="Turquise">
+            <div class=" offset-lg-1 col-lg-6 col-md-12 col-12 Text-center">
+                <div class="Turquise Aboutfont">
+                <h6 class="Turquise Aboutfont">
                     ABOUT THE DISEASE
-                </h6>
+                </h6></div>
                 <div class="row">
                     <h2 class="Dark_Blue">CORONA VIRUS (COVID-19)</h2>
                 </div>
@@ -179,61 +189,62 @@
                     <h5 class="Dark_color">COVID-19 is a new illness that can affect your lungs and airways.</h5>
                 </div>
                 <div>
-                    <p>It's caused by a virus called coronavirus. It was discovered in December 2019 in Wuhan,
+                    <p class="BigFont">It's caused by a virus called coronavirus. It was discovered in December 2019 in Wuhan,
                         Hubei, China.
-
+</p><p>
                         Common signs of infection include respiratory symptoms, fever, cough, shortness of breath
                         and breathing difficulties. In more severe cases, infection can cause pneumonia, severe
                         acute respiratory syndrome, kidney failure and even death.
-
+                    </p>
+                    <p>
                         Standard recommendations to prevent infection spread include regular hand washing, covering
                         mouth and nose when coughing and sneezing, thoroughly cooking meat and eggs. Avoid close
                         contact with anyone showing symptoms of respiratory illness such as coughing and sneezing.
                     </p>
                 </div>
             </div>
-            <div class="col-8 offset-2 offset-lg-1 col-lg-4">
+            <div class="col-8 offset-2 offset-lg-1 col-lg-3">
                 <ul class="table2">
-                    <li class="text-center table">
-                        <a href="" class="AboutArrow Dark_color ">
-                            <h5> What you need to know</h5>
-                        </a>
+                    <li class="text-left table tableAlign">
+                        
+                            <h5 class=" Dark_color"  > What you need to know</h5>
+                       
                     </li>
                     <li class="table">
-                        <a href="" class="AboutArrow">
+                        <a href="#CoronaSpread" class="AboutArrow">
 
                             <div class="FlexSpaceBt  ">
                                 <div>
-                                    <h6 class=" "> How coronavirus is spread </h6>
+                                    <h6 > How coronavirus is spread </h6>
                                 </div>
                                 <div> <i class="fas fa-arrow-right "></i> </div>
                             </div>
                         </a>
                     </li>
                     <li class="table">
-                        <a href="" class="AboutArrow">
+                        <a href="#CoronaSymptoms" class="AboutArrow">
 
                             <div class="FlexSpaceBt  ">
                                 <div>
-                                    <h6 class=" ">Symptoms of coronavirus </h6>
+                                    <h6>Symptoms of coronavirus </h6>
                                 </div>
                                 <div> <i class="fas fa-arrow-right "></i> </div>
                             </div>
                         </a>
                     </li>
                     <li class="table">
-                        <a href="" class="AboutArrow">
+                        <a href="#Do&Don't" class="AboutArrow">
 
                             <div class="FlexSpaceBt  ">
                                 <div>
-                                    <h6 class=" "> How to protect yourself</h6>
+                                    <h6 > How to protect yourself</h6>
                                 </div>
                                 <div> <i class="fas fa-arrow-right "></i> </div>
                             </div>
                         </a>
                     </li>
                     <li class="table">
-                        <a href="" class="AboutArrow">
+                        <a href="#CoronaTreatment" class="AboutArrow">
 
                             <div class="FlexSpaceBt  ">
                                 <div>
@@ -244,22 +255,22 @@
                         </a>
                     </li>
                     <li class="table">
-                        <a href="" class="AboutArrow">
+                        <a href="#F&Q" class="AboutArrow">
 
                             <div class="FlexSpaceBt  ">
                                 <div>
-                                    <h6 class=" "> Myth-Busters of coronavirus</h6>
+                                    <h6 > Myth-Busters of coronavirus</h6>
                                 </div>
                                 <div> <i class="fas fa-arrow-right "></i> </div>
                             </div>
                         </a>
                     </li>
                     <li class="tableLast table">
-                        <a href="" class="AboutArrow">
+                        <a href="#F&Q" class="AboutArrow">
 
                             <div class="FlexSpaceBt  ">
                                 <div>
-                                    <h6 class=" "> Questions & answers </h6>
+                                    <h6 > Questions & answers </h6>
                                 </div>
                                 <div> <i class="fas fa-arrow-right "></i> </div>
                             </div>
@@ -271,7 +282,8 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid padding-small Spread">
+    <!--How Corona spreads -->
+    <div class="container-fluid padding-small Spread" id="CoronaSpread">
         <div class="text-center">
             <div class="row">
                 <h3 class="Turquise">HOW CORONAVIRUS IS SPREAD</h3>
@@ -330,13 +342,13 @@
             </div>
         </div>
         <div class="padding-small-top text-center">
-            <button class="Rounded-Button" style="padding: 0.5%;"> <i class="far fa-question-circle"></i>
-                <h5> Question about spreading? </h4>
+            <button class="Rounded-Button" style="padding: 0.5%;"><a class="AboutArrow White" href="#coronaSpread"><i class="far fa-question-circle"></i>
+                <h5> Question about spreading? </h4></a>
             </button>
         </div>
     </div>
     <!-- Symptoms -->
-    <div class="container-fluid padding-small Symptoms">
+    <div class="container-fluid padding-small Symptoms" id="CoronaSymptoms">
         <div class="text-center">
             <div class="row">
                 <h3 class="Turquise">WHAT ARE THE SYMPTOMS OF COVID-19?</h3>
@@ -434,8 +446,8 @@
                 </div>
                 <div>
                     <div class="padding-small-top text-center">
-                        <button class="Rounded-Button" style="padding: 2%;"> <i class="far fa-question-circle"></i>
-                            <h5> Have question? Find answer. </h4>
+                        <button class="Rounded-Button" style="padding: 2%;"> <i class="far fa-question-circle"></i><a class="AboutArrow White" href="#F&Q">
+                            <h5> Have question? Find answer. </h5></a>
                         </button>
                     </div>
                 </div>
@@ -447,7 +459,7 @@
         </div>
     </div>
     <!-- prevention -->
-    <div class="container-fluid padding-small Prevention">
+    <div class="container-fluid padding-small Prevention" id="CoronaPrevention">
         <div class="text-center">
             <div class="row">
                 <h3 class="Turquise">HOW TO PROTECT YOURSELF?</h3>
@@ -529,13 +541,13 @@
             <div class=" container-fluid">
                 <div class="row text-center">
                     <div class="offset-lg-2 col-lg-3 col-12 ">
-                        <button class="Rounded-Button col-9" style="padding: 2%;"> <i
+                        <button class="Rounded-Button col-9" style="padding: 2%;"><a href="#WashHands" class="AboutArrow White"> <i
                                 class="far fa-question-circle"></i>
-                            <h6>Check how you wash hand</h6>
+                            <h6>Check how you wash hand</h6></a>
                         </button>
                     </div>
                     <div class="offset-lg-2 col-lg-4 col-12 ">
-                        <a class="AboutArrow" href="#">
+                        <a class="AboutArrow" href="#F&Q">
                             <h5>Q&A on Coronaviruses </h5><i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
@@ -659,13 +671,13 @@
             </div>
         </div>
 
-        <div class="padding-small-top text-center">
+        <div class="padding-small-top text-center" id="WashHands">
             <div class="row">
                 <h3 class="Dark_Blue">Follow steps to wash hands</h3>
 
             </div>
             <div class="row">
-                <a class="AboutArrow" href="#">
+                <a class="AboutArrow" href="#F&Q">
                     <h5>Why do I need wash hand </h5><i class="fas fa-arrow-right"></i>
                 </a>
 
@@ -703,7 +715,7 @@
         </div>
     </div>
     <!-- Treatment -->
-    <div class="container-fluid treatment padding-small-top padding-small-bottom">
+    <div class="container-fluid treatment padding-small-top padding-small-bottom" id="CoronaTreatment">
         <div class="row">
             <div class=" col-lg-5 offset-lg-1 Text-lg-left Text-center ">
                 <div class=" row  Turquise ">
@@ -747,7 +759,7 @@
         </div>
     </div>
     <!-- Do and don't -->
-    <div class="container-fluid padding-small Prevention">
+    <div class="container-fluid padding-small Prevention" id="Do&Don't">
         <div class="text-center">
             <div class="row">
                 <h3 class="Turquise">DO’S & DON’TS</h3>
@@ -846,7 +858,7 @@
     </div>
     <!-- Frequently Asked Questions -->
 
-    <div class="container-fluid padding-small padding-small-top " id="F&Q">
+    <div class="container-fluid padding-small padding-small-top FreqQues" id="F&Q">
         <div class="text-center">
             <div class="row">
                 <h3 class="Turquise">FREQUENTLY ASKED QUESTIONS</h3>
@@ -2246,7 +2258,7 @@
 
     </div>
     <!-- LATEST UPDATE -->
-    <div class="container-fluid padding-small Spread">
+    <div class="container-fluid padding-small Spread" id="LatestUpdate">
         <div class="text-center">
             <div class="row">
                 <h3 class="Turquise">RECENT FROM BLOG</h3>
@@ -2300,8 +2312,141 @@
                 <div class="col-lg-1"></div>
             </div>
         </div>
-        
+
     </div>
+    <!-- footer -->
+    <div class="container-fluid FooterDiv padding-small-top padding-small-bottom" id="Footer">
+        <div class="row ">
+            <div class="FooterFirstRow offset-2 col-8 d-flex justify-content-between flex-lg-row flex-column">
+                <div class="row col-lg-4 Footer-Padding-Top ">
+                    <h3 class=" Header Hfont White Text-center Text-lg-left">C<span class="Red"><i
+                                class="fas fa-virus"></i></span>VID<span class="light_Blue">19</span></h3>
+                    <div class="row padding-small-top">
+                        <p>
+                            This website is for health information and advice about coronavirus (COVID-19), how to
+                            prevent and protect yourself from disease.
+                        </p>
+                        <p>
+                            Learn about the government response to coronavirus on GOV.UK.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="d-flex justify-content-lg-start footerIcons justify-content-center">
+
+                            <i class="fab fa-facebook-f"></i>
+
+                            <i class="fab fa-twitter"></i>
+
+                            <i class="fab fa-youtube"></i>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class=" col-lg-2 col-10 Footer-Padding-Top ">
+                    <h6 class=" Header White">QUICK LINK</h6>
+                    <div class="footer">
+                        <ul>
+                            <li>
+                                <a href="#AboutCorona" class="">About Corona</a>
+                            </li>
+                            <li>
+                                <a href="#CoronaSymptoms" class="">Symptoms</a>
+                            </li>
+                            <li>
+                                <a href="#CoronaPrevention" class="">Prevention</a>
+                            </li>
+                            <li>
+                                <a href="#Do&Don't" class="">Protect Youself</a>
+                            </li>
+                            <li>
+                                <a href="#F&Q" class="">F&Qs</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class=" col-lg-2 col-10 Footer-Padding-Top ">
+                    <div>
+                        <h6 class=" Header White">HELPFULL LINK</h6>
+                        <div class="footer">
+                            <ul>
+                                <li>
+                                    <a href="#">Healthcare Professionals</a>
+                                </li>
+                                <li>
+                                    <a href="#">Healthcare Facilities</a>
+                                </li>
+                                <li>
+                                    <a href="#">Older Adults & Medical Conditions</a>
+                                </li>
+                                <li>
+                                    <a href="#">Repare your Family</a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class=" col-lg-2 col-10 Footer-Padding-Top ">
+                    <div>
+                        <h6 class=" Header White">IMPORTANT LINK</h6>
+                        <div class="footer">
+                            <ul>
+                                <li>
+                                    <a href="#">WHO Website</a>
+                                </li>
+                                <li>
+                                    <a href="#">CDC Website</a>
+                                </li>
+                                <li>
+                                    <a href="#">NHS Website</a>
+                                </li>
+                                <li>
+                                    <a href="#">Harvard Health</a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="row padding-small-top copyRight">
+            <div class="offset-2 col-8">
+                <div class=" d-flex justify-content-between flex-lg-row flex-column">
+                    <p>
+                        © 2020 COVID-19. Template Made by Mina Karam Ghoprial .
+                    </p>
+                    <p class="footer">
+                        <a href="#">
+                            Privacy Policy</a>
+                    </p>
+                </div>
+                <p>
+                    Disclaimer: We hope you find the information presented on this website useful. This website is for
+                    general information and raise awareness of (2019-nCoV) only.<br>
+
+                    All the information based on WHO, NHS and CDC website. Information on our website is meant for
+                    awareness, if you have any doubt please verify from respective site.
+                </p>
+            </div>
+
+
+        </div>
+    </div>
+
 
     <a href="#"><i id="fixedbutton" class="fas fa-arrow-circle-up fa-lg-2x fa-1x "></i> </a>
     <script src="script.js"></script>
