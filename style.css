@@ -233,7 +233,7 @@ div.row {
 
 #banner_cont {
     background-color: #F7F9FE;
-    background-image: url(http://frontend.projects-amit-learning.com/images/shape-a.png);
+    background-image: url(imgs/shape-a.png);
     background-size : cover;
     padding-bottom  : 5%;
 }
@@ -333,7 +333,7 @@ div.row {
 .fever-img {
     height             : 100px;
     width              : 100px;
-    background         : url('http://frontend.projects-amit-learning.com/images/symptom-a.png');
+    background         : url('imgs/symptom-a.png');
     background-size    : cover;
     background-position: left;
     position           : absolute;
@@ -347,7 +347,7 @@ div.row {
 .Cough-img {
     height             : 100px;
     width              : 100px;
-    background         : url('http://frontend.projects-amit-learning.com/images/symptom-b.png');
+    background         : url('imgs/symptom-b.png');
     background-size    : cover;
     background-position: left;
     position           : absolute;
@@ -361,7 +361,7 @@ div.row {
 .Breath-img {
     height             : 100px;
     width              : 100px;
-    background         : url('http://frontend.projects-amit-learning.com/images/symptom-c.png');
+    background         : url('imgs/symptom-c.png');
     background-size    : cover;
     background-position: left;
     position           : absolute;
@@ -387,7 +387,7 @@ div.row {
 #wash {
     height             : 100px;
     width              : 100px;
-    background         : url('http://frontend.projects-amit-learning.com/images/advice-a.png');
+    background         : url('imgs/advice-a.png');
     background-size    : cover;
     background-position: left;
     position           : sticky;
@@ -403,7 +403,7 @@ div.row {
 #social {
     height             : 100px;
     width              : 100px;
-    background         : url('http://frontend.projects-amit-learning.com/images/advice-b.png');
+    background         : url('imgs/advice-b.png');
     background-size    : cover;
     background-position: left;
     position           : sticky;
@@ -419,7 +419,7 @@ div.row {
 #touch {
     height             : 100px;
     width              : 100px;
-    background         : url('http://frontend.projects-amit-learning.com/images/advice-c.png');
+    background         : url('imgs/advice-c.png');
     background-size    : cover;
     background-position: left;
     position           : sticky;
@@ -435,7 +435,7 @@ div.row {
 #hygiene {
     height             : 100px;
     width              : 100px;
-    background         : url('http://frontend.projects-amit-learning.com/images/advice-d.png');
+    background         : url('imgs/advice-d.png');
     background-size    : cover;
     background-position: left;
     position           : sticky;
@@ -461,7 +461,7 @@ div.row {
 #soap {
     height             : 100px;
     width              : 100px;
-    background         : url('http://frontend.projects-amit-learning.com/images/hand-a.png');
+    background         : url('imgs/hand-a.png');
     background-size    : cover;
     background-position: left;
     position           : sticky;
@@ -477,7 +477,7 @@ div.row {
 #Palm {
     height             : 100px;
     width              : 100px;
-    background         : url('http://frontend.projects-amit-learning.com/images/hand-b.png');
+    background         : url('imgs/hand-b.png');
     background-size    : cover;
     background-position: left;
     position           : sticky;
@@ -493,7 +493,7 @@ div.row {
 #fingers {
     height             : 100px;
     width              : 100px;
-    background         : url('http://frontend.projects-amit-learning.com/images/hand-c.png');
+    background         : url('imgs/hand-c.png');
     background-size    : cover;
     background-position: left;
     position           : sticky;
@@ -509,7 +509,7 @@ div.row {
 #backH {
     height             : 100px;
     width              : 100px;
-    background         : url('http://frontend.projects-amit-learning.com/images/hand-d.png');
+    background         : url('imgs/hand-d.png');
     background-size    : cover;
     background-position: left;
     position           : sticky;
@@ -525,7 +525,7 @@ div.row {
 #clean {
     height             : 100px;
     width              : 100px;
-    background         : url('http://frontend.projects-amit-learning.com/images/hand-e.png');
+    background         : url('imgs/hand-e.png');
     background-size    : cover;
     background-position: left;
     position           : sticky;
@@ -541,7 +541,7 @@ div.row {
 #focus {
     height             : 100px;
     width              : 100px;
-    background         : url('http://frontend.projects-amit-learning.com/images/hand-f.png');
+    background         : url('imgs/hand-f.png');
     background-size    : cover;
     background-position: left;
     position           : sticky;
@@ -560,7 +560,7 @@ div.row {
 
 .treatment {
     background-color: #2766bb;
-    background-image: url(http://frontend.projects-amit-learning.com/images/shape-a.png);
+    background-image: url('imgs/shape-a.png');
     background-size : cover;
 }
 
@@ -588,6 +588,7 @@ div.row {
 #overlay .original-close-that-we-want-to-reproduce.blue {
     background-image   : url(https://www.seekpng.com/png/detail/334-3349815_red-circle-x-icon.png);
     z-index            : 1;
+    
 }
 
 
@@ -596,7 +597,7 @@ div.row {
 
     height             : 100px;
     width              : 100px;
-    background         : url('http://frontend.projects-amit-learning.com/images/donts-a.png');
+    background         : url('imgs/donts-a.png');
     background-size    : cover;
     background-position: left;
     position           : sticky;
@@ -611,7 +612,7 @@ div.row {
 
     height             : 100px;
     width              : 100px;
-    background         : url('http://frontend.projects-amit-learning.com/images/donts-b.png');
+    background         : url('imgs/donts-b.png');
     background-size    : cover;
     background-position: left;
     position           : sticky;
@@ -625,7 +626,7 @@ div.row {
 
     height             : 100px;
     width              : 100px;
-    background         : url('http://frontend.projects-amit-learning.com/images/donts-c.png');
+    background         : url('imgs/donts-c.png');
     background-size    : cover;
     background-position: left;
     position           : sticky;
@@ -639,7 +640,7 @@ div.row {
 
     height             : 100px;
     width              : 100px;
-    background         : url('http://frontend.projects-amit-learning.com/images/dos-a.png');
+    background         : url('imgs/dos-a.png');
     background-size    : cover;
     background-position: left;
     position           : sticky;
@@ -653,7 +654,7 @@ div.row {
 
     height             : 100px;
     width              : 100px;
-    background         : url('http://frontend.projects-amit-learning.com/images/dos-b.png');
+    background         : url('imgs/dos-b.png');
     background-size    : cover;
     background-position: center;
     position           : sticky;
@@ -667,7 +668,7 @@ div.row {
 
     height             : 100px;
     width              : 100px;
-    background         : url('http://frontend.projects-amit-learning.com/images/dos-c.png');
+    background         : url('imgs/dos-c.png');
     background-size    : cover;
     background-position: center;
     position           : sticky;
@@ -796,7 +797,7 @@ border-radius: 5px;
 .FooterDiv
 {
     background-color: #151c2e;
-    background-image: url(http://frontend.projects-amit-learning.com/images/shape-a.png);
+    background-image: url(imgs/shape-a.png);
     background-size : cover;
     color: #b2bfe0;}
     .FooterFirstRow{

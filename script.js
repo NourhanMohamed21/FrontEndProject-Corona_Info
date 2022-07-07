@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
     // function for nav bar  while scrolling transparent while no scroll and white when scrolling 
     // function for fixed up button  while scrolling visable while no scroll and invisable when scrolling 
